@@ -37,6 +37,6 @@ For the rest of the flags, feel free to pass your own processor architectures an
 # How to use Dlib4Android #
 1. Download the [ndk toolset](https://developer.android.com/ndk/downloads/index.html) if you do not already have it installed
 2. Go to your local Dlib4Android folder and do  
-ndk-build -j2  
+_ndk-build -j2_   
 You need to make sure you have the ndk toolset in your _$PATH_
-3. Copy the libraries from the libs folder to your Android project 
+3. Copy the libraries from the _libs_ folder to your Android project 
