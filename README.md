@@ -12,7 +12,7 @@ We will only go through the particular directives needed to build dlib for Andro
 
 The repositoy does not contain the dlib code, but only links to its repository. In particular, it links to version v19.0 of dlib.
 The reason for this is that higher versions contain std C++11 entities that are not currently supported by NDK. If one tries to use a higher
-version of dlib, they will get errors related to several std library members, such as _std::round_ .
+version of dlib, they will get errors related to several std library members, such as _std::round_.
 
 ## Android.mk ##
 LOCAL_MODULE     := dlib  
