@@ -39,4 +39,6 @@ For the rest of the flags, feel free to pass your own processor architectures an
 2. Go to your local Dlib4Android folder and do  
 _ndk-build -j2_   
 You need to make sure you have the ndk toolset in your _$PATH_
-3. Copy the libraries from the _libs_ folder to your Android project 
+3. Copy the libraries from the _libs_ folder to your Android project
+
+This repository presents the minimum effort one needs to go through in order to start using dlib with Android. Along the way, there will be several obstacles, such as converting data from the Android standard formats to the formats used by dlib. An excellent reference and starting point for all these exists [here](https://github.com/tzutalin/dlib-android), which presents and excellent and much broader porting of dlib for Android.
