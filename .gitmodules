@@ -1,3 +1,3 @@
-[submodule "dlib_v19.0"]
-	path = dlib_v19.0
+[submodule "dlib_v19.7"]
+	path = dlib_v19.7
 	url = https://github.com/davisking/dlib/
