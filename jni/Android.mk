@@ -12,4 +12,5 @@ LOCAL_SRC_FILES  := ../dlib_v19.7/dlib/threads/threads_kernel_shared.cpp \
 		    ../dlib_v19.7/dlib/threads/threads_kernel_2.cpp
 
 LOCAL_C_FLAGS   := -DDLIB_NO_GUI_SUPPORT
+LOCAL_LDLIBS    := -latomic 
 include $(BUILD_SHARED_LIBRARY)
