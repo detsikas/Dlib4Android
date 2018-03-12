@@ -17,7 +17,7 @@ version of dlib, they will get errors related to several std library members, su
 LOCAL_MODULE     := dlib  
 This defines the module name, to be referenced by your Android application
 
-LOCAL_C_INCLUDES := ../dlib_v19.0  
+LOCAL_C_INCLUDES := ../dlib_v19.7  
 This defines the subpath where the dlib code lies.  
 **NOTE** : As dlib documentation explains, it is important not to include the _dlib_ subfolder in this path. The source code of dlib lies
 in the _dlib_ subfolder of the dlib project repository. If the above path were _../dlib_v19.0/dlib/_ we would be getting all sorts
